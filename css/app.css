@@ -1,0 +1,33 @@
+nav {
+  position: fixed;
+  background: transparent;
+}
+
+.cover, .cover2, .cover3 {
+  height: 100vh;
+}
+.cover h1, .cover2 h1, .cover3 h1 {
+  font-size: 5em;
+}
+.cover .btn-floating, .cover2 .btn-floating, .cover3 .btn-floating {
+  font-size: 2em;
+  position: absolute;
+  bottom: 10%;
+  background-color: #8f00ff;
+}
+
+.cover2, .cover3 {
+  position: static;
+  background-color: #8f00ff;
+}
+
+.cover3 {
+  background-color: #14eb8d;
+}
+.cover3 i {
+  font-size: 8em;
+  padding: 15px;
+}
+.cover3 a {
+  color: white;
+}
